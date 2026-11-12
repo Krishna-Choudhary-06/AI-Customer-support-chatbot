@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shopease.example/schemas/faq.schema.json",
+  "title": "ShopEase atomic FAQ record",
+  "type": "object",
+  "required": ["id", "category", "question", "alternativeQueries", "answer", "detailedExplanation", "conditions", "relatedPolicy", "resolutionSteps", "relatedQuestions", "relatedDocuments", "escalation", "source"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "category": { "type": "string", "minLength": 1 },
+    "question": { "type": "string", "minLength": 1 },
+    "alternativeQueries": { "type": "array", "items": { "type": "string" } },
+    "answer": { "type": "string", "minLength": 1 },
+    "detailedExplanation": { "type": "string", "minLength": 1 },
+    "conditions": { "type": "array", "items": { "type": "string" } },
+    "relatedPolicy": { "type": "string" },
+    "resolutionSteps": { "type": "array", "items": { "type": "string" } },
+    "relatedQuestions": { "type": "array", "items": { "type": "string" } },
+    "relatedDocuments": { "type": "array", "items": { "type": "string" } },
+    "escalation": { "type": "array", "items": { "type": "string" } },
+    "source": { "type": "string", "minLength": 1 }
+  },
+  "additionalProperties": false
+}

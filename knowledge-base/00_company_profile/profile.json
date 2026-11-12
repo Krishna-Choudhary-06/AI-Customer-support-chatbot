@@ -1,0 +1,53 @@
+{
+  "companyName": "ShopEase",
+  "fictionalDemo": true,
+  "industry": {
+    "value": "E-commerce",
+    "status": "demo-scope"
+  },
+  "businessModel": {
+    "value": null,
+    "status": "company-input-required",
+    "optionsToDecide": ["single-brand-online-store", "marketplace"]
+  },
+  "products": {
+    "value": ["electronics", "clothing", "accessories", "home products"],
+    "status": "demo-scope"
+  },
+  "targetCustomerSegments": null,
+  "operatingRegions": null,
+  "supportedLanguages": null,
+  "operatingHours": null,
+  "supportChannels": {
+    "examplesMentioned": ["support ticket system"],
+    "status": "demo-example-needs-confirmation"
+  },
+  "fulfillmentModel": null,
+  "paymentMethods": null,
+  "returnAndRefundModel": {
+    "demoExamples": {
+      "returnWindow": "7 days after delivery, subject to return conditions",
+      "approvedRefundProcessing": "5-7 business days"
+    },
+    "status": "fictional-demo-examples-not-approved-policy"
+  },
+  "loyaltyProgram": null,
+  "thirdPartyIntegrations": null,
+  "supportTeamStructure": null,
+  "websiteUrl": null,
+  "mobileApp": null,
+  "termsUrl": null,
+  "privacyPolicyUrl": null,
+  "legalEntity": null,
+  "dataClassification": {
+    "nullValueMeaning": "[COMPANY INPUT REQUIRED]",
+    "statusValues": [
+      "confirmed",
+      "demo-scope",
+      "demo-example-needs-confirmation",
+      "fictional-demo-examples-not-approved-policy",
+      "company-input-required",
+      "not-applicable"
+    ]
+  }
+}

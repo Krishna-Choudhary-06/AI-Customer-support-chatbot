@@ -1,0 +1,38 @@
+{
+  "title": "ShopEase Customer Support Knowledge Base",
+  "version": "1.0",
+  "fictionalDemo": true,
+  "created": "2026-10-30",
+  "approvalStatus": "learning-demo; not approved for real customer commitments",
+  "sourcePolicy": "Only owner-supplied ShopEase demo facts are treated as examples; all other unknowns use [COMPANY INPUT REQUIRED].",
+  "documents": [
+    { "id": "SHO-COMPANY-001", "path": "00_company_profile/company-profile.md", "type": "profile" },
+    { "id": "SHO-GEN-001", "path": "01_general_faqs/general-faqs.md", "type": "faq-and-reference" },
+    { "id": "SHO-ACC-001", "path": "02_account_management/account-management.md", "type": "procedure-template" },
+    { "id": "SHO-PROD-001", "path": "03_products_services/products-services.md", "type": "reference-template" },
+    { "id": "SHO-ORDER-001", "path": "04_order_management/order-management.md", "type": "procedure-template" },
+    { "id": "SHO-PAY-001", "path": "05_payments_billing/payments-billing.md", "type": "troubleshooting-template" },
+    { "id": "SHO-RET-001", "path": "06_returns_refunds/returns-refunds.md", "type": "policy-template" },
+    { "id": "SHO-SHIP-001", "path": "07_shipping_delivery/shipping-delivery.md", "type": "procedure-template" },
+    { "id": "SHO-OFFER-001", "path": "08_discounts_loyalty/discounts-loyalty.md", "type": "policy-template" },
+    { "id": "SHO-TROUBLE-001", "path": "09_technical_troubleshooting/technical-troubleshooting.md", "type": "troubleshooting" },
+    { "id": "SHO-COMP-001", "path": "10_complaints_disputes/complaints-disputes.md", "type": "procedure" },
+    { "id": "SHO-FOOD-001", "path": "11_food_restaurant/food-restaurant.md", "type": "conditional-template" },
+    { "id": "SHO-VENDOR-001", "path": "12_seller_vendor/seller-vendor-support.md", "type": "internal-conditional-template" },
+    { "id": "SHO-SUB-001", "path": "13_subscriptions/subscriptions-memberships.md", "type": "conditional-template" },
+    { "id": "SHO-PRIV-001", "path": "14_privacy_security/privacy-security.md", "type": "safety-procedure" },
+    { "id": "SHO-ESC-001", "path": "15_escalation_human_support/escalation-framework.md", "type": "escalation-policy-template" },
+    { "id": "SHO-INTENT-001", "path": "16_intent_taxonomy/intent-taxonomy.md", "type": "taxonomy" },
+    { "id": "SHO-CONV-001", "path": "17_conversation_examples/conversation-scenarios.md", "type": "test-scenarios" },
+    { "id": "SHO-RULE-001", "path": "18_business_rules/decision-trees.md", "type": "decision-trees" },
+    { "id": "SHO-VOICE-001", "path": "19_response_templates/response-templates.md", "type": "communication-standards" },
+    { "id": "SHO-GLOSSARY-001", "path": "20_glossary/glossary.md", "type": "glossary" },
+    { "id": "SHOPEASE-APPROVED-TEST-001", "path": "test-fixtures/approved/password-reset-test.md", "type": "test-fixture" },
+    { "id": "SHOPEASE-APPROVED-TEST-002", "path": "test-fixtures/approved/order-tracking-test.md", "type": "test-fixture" }
+  ],
+  "machineReadable": [
+    "00_company_profile/profile.json",
+    "16_intent_taxonomy/intent-taxonomy.json",
+    "21_metadata_and_index/faqs.json"
+  ]
+}

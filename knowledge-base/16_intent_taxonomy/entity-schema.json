@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shopease.example/schemas/entities.schema.json",
+  "title": "Support conversation entity handling",
+  "type": "object",
+  "properties": {
+    "customerId": { "type": ["string", "null"], "description": "Prefer authenticated system context; do not expose to other customers." },
+    "orderId": { "type": ["string", "null"], "description": "Customer may provide an order reference; verify ownership before lookup." },
+    "productName": { "type": ["string", "null"] },
+    "productSku": { "type": ["string", "null"] },
+    "paymentMethod": { "type": ["string", "null"], "description": "Collect only if relevant; supported methods are [COMPANY INPUT REQUIRED]." },
+    "maskedTransactionReference": { "type": ["string", "null"], "description": "Only through an approved secure channel." },
+    "orderStatus": { "type": ["string", "null"], "description": "Must come from a trusted order system, never inferred." },
+    "deliveryAddress": { "type": ["string", "null"], "description": "Avoid repeating or collecting in ordinary chat; use authenticated profile." },
+    "orderDate": { "type": ["string", "null"], "format": "date-time" },
+    "refundAmount": { "type": ["number", "null"], "minimum": 0, "description": "Verify via payment system; currency required." },
+    "currency": { "type": ["string", "null"] },
+    "complaintCategory": { "type": ["string", "null"] },
+    "issueDescription": { "type": ["string", "null"] },
+    "preferredResolution": { "type": ["string", "null"] },
+    "neverCollect": {
+      "const": ["password", "one-time password", "PIN", "recovery code", "full card number", "CVV", "banking password"]
+    }
+  },
+  "additionalProperties": false
+}

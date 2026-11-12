@@ -1,0 +1,66 @@
+{
+  "description": "Small test-only semantic retrieval set; labels refer only to the approved test fixture, not real ShopEase policy.",
+  "chunkDocumentIds": [
+    "SHOPEASE-APPROVED-TEST-001",
+    "SHOPEASE-APPROVED-TEST-002"
+  ],
+  "thresholds": [
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9
+  ],
+  "cases": [
+    {
+      "id": "password-reset-exact",
+      "category": "exact",
+      "query": "How can I reset my ShopEase test account password?",
+      "expectedDocumentId": "SHOPEASE-APPROVED-TEST-001"
+    },
+    {
+      "id": "password-reset-paraphrase",
+      "category": "paraphrase",
+      "query": "I cannot sign in and need to make a new password for my account.",
+      "expectedDocumentId": "SHOPEASE-APPROVED-TEST-001"
+    },
+    {
+      "id": "order-tracking-exact",
+      "category": "exact",
+      "query": "How can I track my ShopEase test package?",
+      "expectedDocumentId": "SHOPEASE-APPROVED-TEST-002"
+    },
+    {
+      "id": "order-tracking-paraphrase",
+      "category": "paraphrase",
+      "query": "Where can I see the latest progress of my delivery?",
+      "expectedDocumentId": "SHOPEASE-APPROVED-TEST-002"
+    },
+    {
+      "id": "brand-overlap-unsupported",
+      "category": "misleading-overlap",
+      "query": "What color is the ShopEase warehouse roof?",
+      "expectedDocumentId": null
+    },
+    {
+      "id": "unrelated-unsupported",
+      "category": "unsupported",
+      "query": "What is the warranty period for a lunar toaster?",
+      "expectedDocumentId": null
+    },
+    {
+      "id": "password-topic-unrelated-detail",
+      "category": "misleading-overlap",
+      "query": "Does changing my password tell me where the delivery van is?",
+      "expectedDocumentId": null
+    }
+  ]
+}

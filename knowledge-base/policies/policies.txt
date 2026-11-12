@@ -1,0 +1,14 @@
+COMPANY: ShopEase (fictional demo business)
+CATEGORY: Return and Refund Policies
+
+Q1: Can I return a product?
+
+A: Products can be returned within 7 days of delivery if they meet the return conditions.
+
+Q2: How long does a refund take?
+
+A: Approved refunds are processed within 5-7 business days.
+
+Q3: Can I cancel an order after shipment?
+
+A: Shipped orders cannot be cancelled through the standard cancellation process. Customers should contact ShopEase support for assistance.

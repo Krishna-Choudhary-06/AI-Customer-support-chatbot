@@ -1,0 +1,18 @@
+COMPANY: ShopEase (fictional demo business)
+CATEGORY: General FAQs
+
+Q1: How do I create an account?
+
+A: Visit the registration page. Enter your name, email address, and password. Submit the form to create your account.
+
+Q2: How can I contact customer support?
+
+A: Customers can contact the ShopEase support team through the support ticket system.
+
+Q3: How do I reset my password?
+
+A: Visit the login page and select the Forgot Password option.
+
+Q4: Can I change my registered email?
+
+A: Customers must contact ShopEase support to request a registered email address change.
